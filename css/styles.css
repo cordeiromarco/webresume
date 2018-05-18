@@ -1,5 +1,50 @@
 
-body {margin-top: 0px;margin-left: 0px;}
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+/* Global styles
+------------------------------------*/
+body {
+  margin-top: 0px;margin-left: 0px;
+    }
+  a {
+    color: #EF233C;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+
+/* Header & Footer
+------------------------------------*/
+header,
+footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+header h1,
+header h2 {
+  color: #EDF2F4;
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background: #EDF2F4;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background: #8D99AE;
+}
+
+/* Default definitions
+------------------------------------*/
 
 #page_1 {position:relative; overflow: hidden;margin: 91px 0px 219px 96px;padding: 0px;border: none;width: 720px;}
 #page_1 #p1dimg1 {position:absolute;top:0px;left:157px;z-index:-1;width:337px;height:92px;}
